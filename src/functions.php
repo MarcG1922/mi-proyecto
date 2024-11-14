@@ -1,4 +1,5 @@
 <?php
-echo "Hola soc Marc Granero"
-
+function mostrar_mensaje_personalizado($nombre) {
+    return "Hola, " . $nombre . "! Bienvenido";
+}
 ?>
